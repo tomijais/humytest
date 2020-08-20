@@ -98,7 +98,7 @@ window.addEventListener("load", function () {
 
         loadingRing.style.display = "flex"
 
-        emailjs.sendForm("default_service", "template_ATflrdWt", form).then(
+        emailjs.sendForm("gmail", "template_ATflrdWt_clone", form).then(
           function (response) {
             console.log("SUCCESS!", response.status, response.text);
 
